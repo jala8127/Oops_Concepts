@@ -1,5 +1,3 @@
-
-
 public class App {
     public static void main(String[] args) {
         Shop item1 = new Shop("Books", 10, 500) ;

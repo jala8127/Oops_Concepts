@@ -1,0 +1,3 @@
+class Wholesale extends Shop{
+     
+}

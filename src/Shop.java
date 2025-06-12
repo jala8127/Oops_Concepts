@@ -60,20 +60,3 @@ class Shop {
           System.out.println(this.price);
      }
 }
-// class Wholesale extends Shop{
-//       public Wholesale(String product, int quantity, int price) {
-//           super(setQuantity());
-//      }
-//      @Override 
-//      public void setQuantity(int quantity){
-//            if (quantity >= 50 ) {
-//                this.quantity = quantity;
-//           }else{
-//                System.out.println("Enter Quantity above 50");
-//           }
-//      }
-
-//      void display() {
-//           System.out.println(this.getProduct()+this.getQuantity()+this.getPrice());
-//      }
-// }
