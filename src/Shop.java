@@ -1,7 +1,7 @@
 class Shop {
-     private String product;
+     protected String product;
      protected int quantity;
-     private int price;
+     protected int price;
 
      public Shop(){
           this.product= null;
@@ -19,7 +19,7 @@ class Shop {
           this.product = product;
      }
      public void setQuantity(int quantity) {
-          if (quantity > 20) {
+          if (quantity < 20) {
                this.quantity = quantity;
           }else{
                System.out.println("Enter Quantity below 20");
@@ -27,7 +27,7 @@ class Shop {
 
      }
      public void setPrice(int price){
-          if (price >= 1000){
+          if (price <= 1000){
                this.price = price;
           }else {
                System.out.println("Price is Invalid");
